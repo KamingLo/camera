@@ -8,12 +8,28 @@
 h1{
   font-family: sans-serif;
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 body{
   margin: 0;
   font-family:sans-serif;
-  background-color: aliceblue;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 h2{
@@ -60,14 +76,19 @@ h2{
 }
 
 p{
+  color: rgb(255, 255, 255);
   text-align: center;
-  color: rgb(0, 0, 0);
+}
+
+.pcamera{
+  text-align: center;
+  color: rgb(34, 34, 34);
 }
 
 button{
   text-align: center;
-  font-size: 24px;
-  color: white;
+  font-size: 20px;
+  color: rgb(207, 207, 207);
   width: 100%;
   padding: 15px;
   border: 0;
@@ -79,7 +100,7 @@ button{
 }
 
 .check{
-  background-color: lightgrey;
+  background-color: rgb(0, 0, 0);
   opacity:0.75;
 }
 
@@ -98,6 +119,7 @@ button{
     width: 100%;
   }
 }
+
 .navbar {
   overflow: hidden;
   background-color:rgb(79, 79, 79);
@@ -264,4 +286,36 @@ button{
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  .fa-brands{
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  .fa-github{
+    background: black;
+    color: white;
+  }
+
+  .fa-instagram{
+    background:lightpink;
+    color: white;
+  }
+
+  footer{
+    padding: 20px;
+    text-align: center;
+    background: white;
+    opacity: 0.5;
+  }
+
+  .footer-last{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
   }
