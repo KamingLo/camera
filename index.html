@@ -1,34 +1,42 @@
 <html lang="en">
 <head>
-    <script src="javaScript.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaming</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script src="javaScript.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaming</title>
     
 </head>
 <body>
 
+  <div class="d-flex flex-column justify-content-center w-100 h-100">
+  </div>
+
     <div class="navbar">
-          <a class = "home" href="index.html">Home</a>
+        <a class = "home" href="index.Html">
+          <p>
+            Home
+          </p>
+        </a>
 
           <div class="subnav">
             
-            <button class="subnavbtn">Product<i class="fa fa-caret-down"></i></button>
+            <button class="subnavbtn">Product <i class="fa fa-caret-down"></i></button>
 
             <div class="subnav-content">
-                <a href="#Camera">Camera</a>
-                <a href="#Lenses">Lenses</a>
-                <a href="#Accesories">Accesories</a>
+                <a href="index.html#Camera">Camera</a>
+                <a href="lenses.html">Lenses</a>
+                <a href="https://en.wikipedia.org/wiki/Category:Photography_equipment">Accesories</a>
             </div>
 
         </div>
 
         <div class="subnav">
-            <button class="subnavbtn">About<i class="fa fa-caret-down"></i></button>
+            <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
             <div class="subnav-content">
-                <a href="">me</a>
-                <a href="#help">Help</a>
+                <a href="maintenance.html">me</a>
+                <a href="maintenance.html">Help</a>
             </div>
         </div>
         <a href="#contact">Contact</a>
@@ -83,37 +91,47 @@
     <div class="camera">
       <img class="imgcamera" src="image/canon 1300d.png" alt="">
       <h2>Canon Eos 1300D</h2>
-      <p>Entry-Level Camera</p>
+      <p class="pcamera">Entry-Level Camera</p>
       <a href="https://en.wikipedia.org/wiki/Canon_EOS_1300D"><button class="check">Check</button></a>
     </div>
 
     <div class="camera">
       <img class="imgcamera" src="image/eos 5d.png" alt="">
       <h2>Canon Eos 5D</h2>
-      <p>High-end Level Camera</p>
+      <p class="pcamera">High-end Level Camera</p>
       <a href="https://en.wikipedia.org/wiki/Canon_EOS_5D"><button class="check">Check</button></a>
     </div>
 
     <div class="camera">
       <img class="imgcamera" src="image/eos 7d.png" alt="">
       <h2>Canon Eos 7D</h2>
-      <p>Middle end level Camera</p>
+      <p class="pcamera">Middle end level Camera</p>
       <a href="https://en.wikipedia.org/wiki/Canon_EOS_7D"><button class="check">Check</button></a>
     </div>
-
-
   </div>
 
   <br>
-  <hr style="border-top: 0px;">
+  <hr style="opacity: 50%;">
   <br>
-  
 
+  <div class = "contactUs">
+    <p id="contact">Contact me</p>
+  </div>
 
-    <div class = "contactUs">
-      <p id="contact">Contact me</p>
+<br>
 
-    </div>
+  <div style="text-align: center; ">
+    <a href="https://github.com/KamingLo" class="fa-brands fa-github"></a>
+    <a href="https://instagram.com/its.klo_" class="fa-brands fa-instagram"></a>
+  </div>
+
+  <br>
+
+    <footer class="footer">
+      <a class="footer-last" href="index.html"><span>Home</span></a>
+      <a class="footer-last" href="maintenance.html"><span>About</span></a>
+      <a class="footer-last" href="maintenance.html"><span>Other</span></a>
+  </footer>
 
 </body>
 </html>
